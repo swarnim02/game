@@ -34,7 +34,7 @@ function setMole() {
         currMoleTile.innerHTML = "";
     }
     let mole = document.createElement("img");
-    mole.src = "./monty-mole.png";
+    mole.src = "./panda.png";
 
     let num = getRandomTile();
     if (currPlantTile && currPlantTile.id == num) {
